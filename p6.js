@@ -2,7 +2,7 @@ const fs=require("fs");
 
 const write=()=>{
     //const data="i am a writer"
-fs.writeFile("./data.text","utf8",(err, data)=>{
+fs.writeFile("./mkdir/data.text","utf8",data,(err)=>{
     if(err)
         console.log("error writing",err);
     else
@@ -11,5 +11,5 @@ fs.writeFile("./data.text","utf8",(err, data)=>{
 
 }
 // console.log("Before reading")
-write("i am a writer");
+write("Amit");
 // console.log("After reading")
